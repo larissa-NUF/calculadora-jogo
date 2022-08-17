@@ -8,7 +8,9 @@ Id int PRIMARY KEY,
 Tipo varchar(255),
 Login varchar(255),
 Nome varchar(255),
-Senha varchar(255)
+Senha varchar(255),
+Email varchar(255),
+DataCadastro datetime
 )
 
 CREATE TABLE Historico (
